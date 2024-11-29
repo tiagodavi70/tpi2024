@@ -10,8 +10,8 @@ class Retangulo(Forma):
     def calcular_area(self):
         return self.largura * self.altura
 
-# Criar o Circulo e o Quadrado
 
+# Criar o Circulo e o Quadrado
 # Utilização
 retangulo = Retangulo(5, 3)
 print(f"Área do Retângulo: {retangulo.calcular_area()}")
