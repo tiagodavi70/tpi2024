@@ -15,3 +15,9 @@ for i in range(10):
 print("\nLista de Automóveis:")
 for auto in automoveis:
     print(auto)
+
+class Telemovel:
+    def __init__(self, modelo, preco, plano):
+        self.modelo = modelo
+        self.preco = preco
+        self.plano = plano
