@@ -15,8 +15,8 @@ CREATE TABLE Venda (
 	id_cliente INT,
 	id_carro INT,
 	data_venda DATE,
-	FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente),
-	FOREIGN KEY (id_carro) REFERENCES Carros(id_carro)
+	FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
+	FOREIGN KEY (id_carro) REFERENCES Carro(id_carro)
 );
 
 
